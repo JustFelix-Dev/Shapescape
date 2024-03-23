@@ -2,7 +2,7 @@ import shapescapeLogo from "../assets/shapescape.svg";
 
 const FirstSection = () => {
   return (
-    <div className="first-section w-full max-w-[1121px] mx-auto border">
+    <div className="first-section w-full max-w-[1121px] mx-auto ">
         <div className="flex flex-col gap-[5rem] pt-[1.5rem]" >
       <nav className="flex justify-between items-center">
         <div>
