@@ -9,17 +9,16 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter",  Helvetica, sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
 }
-
 
 #container {
   width: 100%;
-  height: 100%; 
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -29,19 +28,34 @@
 .panel {
   position: absolute;
   inset: 0;
+  min-height: 120vh;
   will-change: transform;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
 }
 
 .red {
-  background-color: #041C3B;
+  background-color: #041c3b;
 }
 
 .orange {
-  background-color: #F3F6FA;
+  background-color: #f3f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .purple {
   background-color: purple;
-} 
+}
+
+.read-more:hover {
+  transform: rotate(30deg);
+}
+.second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
