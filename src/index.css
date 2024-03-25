@@ -34,19 +34,21 @@
   border-bottom-right-radius: 80px;
 }
 
-.red {
+.one {
   background-color: #041c3b;
 }
 
-.orange {
+.two {
   background-color: #f3f6fa;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.purple {
-  background-color: purple;
+.three {
+  background-color: #fff;
+  border: 2px solid red;
+  min-height: 400vh;
 }
 
 .read-more:hover {
@@ -58,4 +60,22 @@
   justify-content: center;
   align-items: center;
   gap: 4rem;
+}
+
+.overlay {
+}
+.overlay-text {
+  scale: 0;
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
+}
+.project-card:hover .overlay-text {
+  scale: 1;
+}
+
+.project-card:hover .image-container {
+  transform: rotate(2deg);
+  transform-origin: left;
 }

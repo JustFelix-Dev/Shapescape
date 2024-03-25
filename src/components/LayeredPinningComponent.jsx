@@ -1,8 +1,9 @@
-import { gsap } from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-import { useGSAP } from '@gsap/react';
-import FirstSection from './FirstSection';
-import SecondSection from './SecondSection';
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+import FirstSection from "./FirstSection";
+import SecondSection from "./SecondSection";
+import ThirdSection from "./ThirdSection";
 
 function LayeredPinningComponent() {
   useGSAP(() => {
@@ -15,7 +16,7 @@ function LayeredPinningComponent() {
       scrollTrigger: {
         trigger: "#container",
         start: "top top",
-        end: "+=300%",
+        end: "+=10000%",
         scrub: true,
         pin: true,
       },
@@ -26,21 +27,47 @@ function LayeredPinningComponent() {
 
   return (
     <>
-    <div id="container">
-      <section className="panel red">
-       <FirstSection/>
-      </section>
-      <section className="panel orange">
-        <SecondSection/>
-      </section>
-      <section className="panel purple">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut consequatur molestiae natus, recusandae veritatis nobis doloremque minus! Nam quibusdam provident aspernatur architecto labore voluptas aut natus in, sed officiis ipsam molestiae quas temporibus consequuntur facilis iusto eos quod fugit culpa eveniet harum? Dolor, aspernatur voluptatem illum asperiores consequatur qui corporis dolore repellendus molestias. Ipsam placeat culpa tempore dicta id, excepturi accusantium quod dolore ratione saepe cumque quasi unde illum praesentium fuga dignissimos, eaque a suscipit. Quasi distinctio minus officiis mollitia, quis id tempora reiciendis dolore nisi excepturi, natus minima est perspiciatis, placeat vel error veritatis sit esse quaerat iste. Facere quas doloribus repellat delectus impedit. Optio, ex excepturi? Consequatur delectus expedita, rem deserunt vitae natus temporibus aperiam amet error mollitia, autem numquam quisquam unde, facilis obcaecati. Ipsa consequatur illum eum, odio molestiae cum totam. Nisi magnam, dicta quasi eum necessitatibus natus nihil culpa voluptates veritatis veniam magni adipisci earum porro laborum, sed voluptas? Odit, illo quis nobis perferendis provident consequuntur. Fuga placeat aliquam quis sunt sed doloribus dolorum nesciunt reiciendis reprehenderit, optio maiores facilis ipsum in aperiam id, qui autem quos distinctio quidem cumque facere iste odio. Repudiandae obcaecati, porro nemo veniam et consectetur suscipit quia odio mollitia, ad consequatur itaque commodi fuga incidunt earum error fugit neque. Ullam vero illo reprehenderit tenetur odit, ut, quod aperiam natus accusantium hic laudantium repudiandae quidem, suscipit eos exercitationem dignissimos voluptas. Libero mollitia necessitatibus recusandae nisi nulla consequatur molestiae, distinctio veniam autem soluta praesentium atque quidem odit quo ut quaerat culpa nesciunt earum magni numquam aliquam natus porro totam. Ratione sit aliquam culpa iste architecto! Maiores neque tempora laboriosam aperiam doloribus perferendis modi a incidunt corrupti esse, est praesentium vero suscipit sapiente atque accusamus nesciunt placeat in reiciendis? Fugit at doloribus neque vitae quaerat doloremque eaque animi laborum deleniti, voluptatum tenetur modi nihil, unde tempora corrupti labore, excepturi dolor. Sed, molestiae commodi numquam culpa cumque illum eos provident! Optio quas adipisci facilis ab est ad repellendus commodi eaque iste cumque laudantium atque dolorem dolores debitis sequi deserunt, tempora officiis consectetur magnam odio. Repellat autem veniam ipsum soluta quod tenetur commodi et optio ab doloremque consequatur quia quisquam blanditiis quasi laudantium esse delectus, voluptas tempore. Quam vitae, exercitationem nesciunt ad quos quisquam? Odit sint fugit impedit perferendis culpa est! Quisquam maiores, neque nostrum est voluptate culpa libero iure, provident, exercitationem reprehenderit ad ipsum consequatur obcaecati aliquam earum quibusdam? Numquam quos veniam facilis ipsam debitis!
-      </section>
-    </div>
-    <header>
-      {/* ... header content ... */}
-    </header>
-
+      <div id="container">
+        <section className="panel one">
+          <FirstSection />
+        </section>
+        <section className="panel two">
+          <SecondSection />
+        </section>
+        <section className="panel three">
+          <ThirdSection />
+        </section>
+        <section className="panel four">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+            nostrum voluptatem accusamus alias quasi provident ipsa tempora ut
+            iste quod cupiditate repellat culpa ex assumenda quos facilis
+            aperiam distinctio voluptates rerum, deleniti sint? Beatae voluptate
+            sint quaerat neque maxime voluptatibus, nostrum facere officia,
+            velit et eius aut architecto alias exercitationem voluptas quisquam
+            reiciendis voluptates in excepturi quae consequatur soluta fuga!
+            Beatae perspiciatis optio accusamus facilis ratione ea odio
+            veritatis quod eligendi expedita. Tenetur doloribus, totam
+            reprehenderit corrupti id eaque qui sequi consequuntur, voluptas
+            autem nobis! Recusandae quae non, aut atque nostrum omnis, maiores
+            animi totam voluptate, doloribus perspiciatis! Vero, repellat! Unde
+            tenetur harum, rem commodi eius itaque reprehenderit ex minus
+            voluptates hic! Placeat iusto corporis cumque dignissimos hic, quas
+            porro. Nesciunt tenetur odio possimus magni eligendi modi eius
+            dolorem animi quis corporis quas reprehenderit error sit ut est,
+            consequuntur aspernatur quam ea magnam beatae at dolore. Autem eum
+            iste sit nisi inventore laboriosam placeat quae. Veritatis nisi
+            aspernatur repellendus eveniet repellat molestias eos adipisci.
+            Ducimus, eius. Temporibus illum expedita maiores. Qui, quam harum
+            velit aut commodi est debitis ut minus iure facere ratione possimus
+            dolorem! Nihil maiores nobis cum et magni perferendis beatae nemo ut
+            eos atque! At, asperiores totam.
+          </div>
+        </section>
+        <section className="panel five"></section>
+        <section className="panel six"></section>
+        <header></header>
+      </div>
     </>
   );
 }
