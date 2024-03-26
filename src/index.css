@@ -34,8 +34,27 @@
   border-bottom-right-radius: 80px;
 }
 
+.nav-list li {
+  cursor: pointer;
+}
+
+.nav-list li i {
+  transition: all ease-out 250ms;
+  transform: rotate(45deg) scale(0) translateY(20px);
+  font-size: 10px;
+}
+.nav-list li:hover i {
+  transform: rotate(45deg) scale(1) translateY(0);
+  transform-origin: bottom;
+}
+
+.nav-list li:hover {
+  color: #cdf462;
+}
+
 .one {
   background-color: #041c3b;
+  min-height: 150vh;
 }
 
 .two {

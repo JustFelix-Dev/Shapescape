@@ -48,7 +48,6 @@ const SixthSection = () => {
           <li className="list-disc list-inside">
             <a href="#">
               Terms and Conditions{" "}
-              {/* <i className="fa-solid fa-square text-red-500"></i> */}
             </a>
           </li>
         </div>
