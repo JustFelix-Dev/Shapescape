@@ -5,6 +5,7 @@ import FirstSection from "./FirstSection";
 import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 import FourthSection from "./FourthSection";
+import FifthSection from "./FifthSection";
 
 function LayeredPinningComponent() {
   useGSAP(() => {
@@ -24,7 +25,7 @@ function LayeredPinningComponent() {
     });
 
     gsap.set(".panel", { zIndex: (i, target, targets) => targets.length - i });
-  }, []); // Empty dependency array to run on first render
+  }, []);
 
   return (
     <>
@@ -41,7 +42,9 @@ function LayeredPinningComponent() {
         <section className="panel four">
           <FourthSection/>
         </section>
-        <section className="panel five"></section>
+        <section className="panel five">
+          <FifthSection/>
+        </section>
         <section className="panel six"></section>
         <header></header>
       </div>

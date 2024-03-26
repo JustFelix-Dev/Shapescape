@@ -58,6 +58,13 @@
   justify-content: center;
 }
 
+.five {
+  background-color: #cfb7f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .read-more:hover {
   transform: rotate(30deg);
 }
