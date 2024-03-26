@@ -16,7 +16,7 @@ import greenHalf from "../assets/green-half.png";
 
 const ThirdSection = () => {
   return (
-    <div className="third-section w-full text-center max-w-[1121px] mx-auto">
+    <div className="third-section w-full text-center max-w-[1121px] mx-auto flex flex-col gap-12">
       <header className="text-based mx-auto text-[44px] font-bold leading-[53px] text-center max-w-[20ch]">
         We are proud of our creations
       </header>
@@ -74,7 +74,7 @@ const ThirdSection = () => {
           bgColor={"#CFB7F5"}
         />
       </section>
-      <div className="flex items-center justify-center gap-2 text-center">
+      <div className="flex my-8 items-center justify-center gap-2 text-center">
         <span className="text-[#041C3B] text-[18px] font-semibold">
           See more Projects
         </span>{" "}
@@ -84,32 +84,44 @@ const ThirdSection = () => {
           alt="read-more"
         />
       </div>
-
-      <div className="stats flex gap-6 ">
-        <div className="flex justify-center items-center rounded-lg bg-[#F3F6FA]">
+      <div className="stats flex gap-6">
+        <div className="flex justify-center items-center rounded-2xl bg-[#F3F6FA] h-[524px] w-full">
           <div className="flex flex-col gap-4">
-            <p>Some cool stats!</p>
+            <p className="text-[20px] font-medium text-based">
+              Some cool stats!
+            </p>
             <div>
               <p className="text-[100px] text-[#162C49] font-bold">11%</p>
-              <p className="text-center">
+              <p className="text-center text-[18px] max-w-[30ch] text-[#162C49]">
                 increase in knowledge recall when taught through gamification
               </p>
             </div>
-            <span className="text-[16px] text-based border border-based px-[26px] py-[8px] rounded-full">
+            <span className="text-[16px] self-center text-based border border-based px-[26px] py-[8px] rounded-full">
               01/03
             </span>
           </div>
         </div>
-        <div className="flex justify-center items-center rounded-lg bg-[#CDF462]">
+        <div className="flex justify-center items-center rounded-2xl bg-[#CDF462] w-full">
           <div className="flex flex-col ">
-            <img src={whitePill} alt="white-pill image" />
-            <img src={purpleSquare} alt="purplesquare image" />
-            <img src={greenHalf} alt="greenhalf image" />
+            <img
+              src={whitePill}
+              className="self-center h-[100px]"
+              alt="white-pill image"
+            />
+            <img
+              src={purpleSquare}
+              className="self-center h-[200px] -mt-3"
+              alt="purplesquare image"
+            />
+            <img
+              src={greenHalf}
+              className="self-center h-[120px] -mt-6"
+              alt="greenhalf image"
+            />
           </div>
         </div>
       </div>
-
-      <div className="our-blog">
+      <div className="our-blog mt-6 flex flex-col gap-12">
         <div className="flex justify-between">
           <header className="text-based text-[36px] font-bold">Our blog</header>
           <div className="flex items-center justify-center gap-2 text-center">

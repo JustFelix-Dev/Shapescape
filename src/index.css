@@ -47,8 +47,11 @@
 
 .three {
   background-color: #fff;
+   display: flex;
+  align-items: center;
+  justify-content: center;
   border: 2px solid red;
-  min-height: 400vh;
+  min-height: 550vh;
 }
 
 .four {
@@ -66,7 +69,7 @@
 }
 
 .six {
-  background-color: #F3F6FA;
+  background-color: #f3f6fa;
   display: flex;
   align-items: center;
   justify-content: end;
