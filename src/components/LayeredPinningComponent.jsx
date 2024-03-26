@@ -6,6 +6,7 @@ import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 import FourthSection from "./FourthSection";
 import FifthSection from "./FifthSection";
+import SixthSection from "./SixthSection";
 
 function LayeredPinningComponent() {
   useGSAP(() => {
@@ -45,8 +46,9 @@ function LayeredPinningComponent() {
         <section className="panel five">
           <FifthSection/>
         </section>
-        <section className="panel six"></section>
-        <header></header>
+        <section className="panel six">
+          <SixthSection/>
+        </section>
       </div>
     </>
   );

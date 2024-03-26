@@ -65,6 +65,13 @@
   justify-content: center;
 }
 
+.six {
+  background-color: #F3F6FA;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
 .read-more:hover {
   transform: rotate(30deg);
 }
