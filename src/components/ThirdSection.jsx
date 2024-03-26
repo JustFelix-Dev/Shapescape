@@ -10,6 +10,9 @@ import BlogCard from "./BlogCard";
 import downloadImage from "../assets/downloads.webp";
 import metaVerseImage from "../assets/metaverse.webp";
 import minecraftImage from "../assets/minecraft.webp";
+import whitePill from "../assets/white-pill.png";
+import purpleSquare from "../assets/purple-square.png";
+import greenHalf from "../assets/green-half.png";
 
 const ThirdSection = () => {
   return (
@@ -80,6 +83,30 @@ const ThirdSection = () => {
           className="transition-all read-more"
           alt="read-more"
         />
+      </div>
+
+      <div className="stats flex gap-6 ">
+        <div className="flex justify-center items-center rounded-lg bg-[#F3F6FA]">
+          <div className="flex flex-col gap-4">
+            <p>Some cool stats!</p>
+            <div>
+              <p className="text-[100px] text-[#162C49] font-bold">11%</p>
+              <p className="text-center">
+                increase in knowledge recall when taught through gamification
+              </p>
+            </div>
+            <span className="text-[16px] text-based border border-based px-[26px] py-[8px] rounded-full">
+              01/03
+            </span>
+          </div>
+        </div>
+        <div className="flex justify-center items-center rounded-lg bg-[#CDF462]">
+          <div className="flex flex-col ">
+            <img src={whitePill} alt="white-pill image" />
+            <img src={purpleSquare} alt="purplesquare image" />
+            <img src={greenHalf} alt="greenhalf image" />
+          </div>
+        </div>
       </div>
 
       <div className="our-blog">
