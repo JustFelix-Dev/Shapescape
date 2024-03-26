@@ -20,7 +20,7 @@ const ThirdSection = () => {
       <header className="text-based mx-auto text-[44px] font-bold leading-[53px] text-center max-w-[20ch]">
         We are proud of our creations
       </header>
-      <section className="flex justify-between gap-10 flex-wrap">
+      <section className="flex gap-12 flex-wrap">
         <ProjectCard
           image={artemis}
           type={"Educational"}

@@ -47,11 +47,11 @@
 
 .three {
   background-color: #fff;
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid red;
-  min-height: 550vh;
+  /* border: 2px solid red; */
+  min-height: 600vh;
 }
 
 .four {

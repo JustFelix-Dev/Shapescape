@@ -1,6 +1,6 @@
 const BlogCard = ({ image, title, content }) => {
   return (
-    <div className="blog-card flex items-center gap-10">
+    <div className="blog-card flex items-center gap-16">
       <div>
         <img
           src={image}
