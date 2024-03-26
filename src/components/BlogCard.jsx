@@ -15,10 +15,13 @@ const BlogCard = ({ image, title, content }) => {
         <span className=" max-w-[25ch] text-left text-[24px] font-bold text-based">
           {title}
         </span>
-        <p className="text-[16px] text-left max-w-[479px] text-[#162c49]">
+        <p className="text-[16px] blog-content text-left max-w-[479px] text-[#162c49]">
           {content}
         </p>
-        <a href="#" className=" text-left cursor-pointer text-[16px] text-based font-semibold">
+        <a
+          href="#"
+          className=" text-left cursor-pointer text-[16px] text-based font-semibold"
+        >
           Read More
         </a>
       </div>

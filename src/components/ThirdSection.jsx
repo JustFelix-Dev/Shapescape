@@ -96,7 +96,7 @@ const ThirdSection = () => {
             />
           </div>
         </div>
-        <section className="flex flex-col gap-4">
+        <section className="flex flex-col gap-12">
           <BlogCard
             image={downloadImage}
             title={"Six Million downloads for Disaster Defense!"}

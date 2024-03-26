@@ -51,6 +51,11 @@
   min-height: 400vh;
 }
 
+.four {
+  background-color: #2D7964;
+  
+}
+
 .read-more:hover {
   transform: rotate(30deg);
 }
@@ -78,4 +83,11 @@
 .project-card:hover .image-container {
   transform: rotate(2deg);
   transform-origin: left;
+}
+
+.blog-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
