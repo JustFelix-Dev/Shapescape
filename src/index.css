@@ -52,8 +52,10 @@
 }
 
 .four {
-  background-color: #2D7964;
-  
+  background-color: #2d7964;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .read-more:hover {
@@ -90,4 +92,14 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.clients {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  /* border: 1px solid red; */
+  row-gap: 2rem;
 }
