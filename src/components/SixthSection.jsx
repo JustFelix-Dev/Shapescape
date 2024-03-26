@@ -39,6 +39,37 @@ const SixthSection = () => {
           </div>
         </div>
       </div>
+      <div className="flex items-center justify-between">
+        <div className="flex gap-1 text-[#44566e] text-[14px]">
+          <span>Copyright &copy; Shapescape 2024</span>
+          <li className="list-disc list-inside">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li className="list-disc list-inside">
+            <a href="#">Terms and Conditions</a>
+          </li>
+        </div>
+        <div className="flex items-center gap-3">
+          <a
+            href="#"
+            className="text-based font-medium text-[16px] px-[16px] py-[12px] flex justify-center items-center rounded-full bg-[#CFB7F5]"
+          >
+            YouTube
+          </a>
+          <a
+            href="#"
+            className="text-based font-medium text-[16px] px-[16px] py-[12px] flex justify-center items-center rounded-full bg-[#CFB7F5]"
+          >
+            Twitter
+          </a>
+          <a
+            href="#"
+            className="text-based font-medium text-[16px] px-[16px] py-[12px] flex justify-center items-center rounded-full bg-[#CFB7F5]"
+          >
+            Instagram
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
