@@ -75,7 +75,7 @@ const ThirdSection = () => {
         />
       </section>
       <div className="flex my-8 items-center justify-center gap-2 text-center">
-        <span className="text-[#041C3B] text-[18px] font-semibold">
+        <span className="text-[#041C3B] text-[15px] sm:text-[18px] font-semibold">
           See more Projects
         </span>{" "}
         <img
@@ -84,15 +84,15 @@ const ThirdSection = () => {
           alt="read-more"
         />
       </div>
-      <div className="stats flex gap-6">
+      <div className="stats flex flex-col sm:flex-row gap-6">
         <div className="flex justify-center items-center rounded-2xl bg-[#F3F6FA] h-[524px] w-full">
           <div className="flex flex-col gap-4">
-            <p className="text-[20px] font-medium text-based">
+            <p className="text-[12px] sm:text-[20px] font-medium text-based">
               Some cool stats!
             </p>
             <div>
-              <p className="text-[100px] text-[#162C49] font-bold">11%</p>
-              <p className="text-center text-[18px] max-w-[30ch] text-[#162C49]">
+              <p className="text-[44px] md:text-[100px] text-[#162C49] font-bold">11%</p>
+              <p className="text-center text-[13px] md:text-[18px] max-w-[30ch] text-[#162C49]">
                 increase in knowledge recall when taught through gamification
               </p>
             </div>
@@ -123,9 +123,9 @@ const ThirdSection = () => {
       </div>
       <div className="our-blog mt-6 flex flex-col gap-12">
         <div className="flex justify-between">
-          <header className="text-based text-[36px] font-bold">Our blog</header>
+          <header className="text-based text-[24px] md:text-[36px] font-bold">Our blog</header>
           <div className="flex items-center justify-center gap-2 text-center">
-            <span className="text-[#041C3B] text-[18px] font-semibold">
+            <span className="text-[#041C3B] text-[13px] md:text-[18px] font-semibold">
               Go to the blog
             </span>{" "}
             <img
