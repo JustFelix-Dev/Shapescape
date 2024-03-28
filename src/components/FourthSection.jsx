@@ -14,14 +14,14 @@ import marvellous from "../assets/marvelous.svg";
 const FourthSection = () => {
   return (
     <div className="w-full text-center max-w-[1121px] mx-auto">
-      <header className="text-white text-[44px] font-bold">
+      <header className="text-white text-[28px] sm:text-[38px] md:text-[44px] font-bold">
         Notable Clients
       </header>
-      <p className="text-white text-[16px]">
+      <p className="text-white text-[14px] md:text-[16px]">
         Over the years we have worked on our projects with a variety of partners
       </p>
       <section className="clients">
-        <div >
+        <div>
           <img src={microsoft} alt="microsoft-image" />
         </div>
         <div>
