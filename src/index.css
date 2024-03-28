@@ -144,6 +144,17 @@
   display: none;
 }
 
+.letter-box {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.letter-box > * {
+  width: 80%;
+  border-radius: 50px;
+}
+
 @media screen and (max-width: 900px) {
   .nav-list {
     display: none;
@@ -176,11 +187,6 @@
   }
 }
 
-.clients div {
-  width: 150px;
-  align-self: start;
-}
-
 @media screen and (max-width: 1200px) {
   .three {
     min-height: 810vh;
@@ -202,7 +208,9 @@
 }
 
 @media screen and (max-width: 595px) {
-  .clients img {
-    height: 40px;
+  .clients div {
+    width: 120px;
+    align-self: start;
+    align-self: center;
   }
 }
