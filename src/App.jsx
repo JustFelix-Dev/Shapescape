@@ -4,8 +4,8 @@ import LayeredPinningComponent from "./components/LayeredPinningComponent";
 
 function App() {
   return (
-    <div>
-      <LayeredPinningComponent/>
+    <div className="px-12">
+      <LayeredPinningComponent />
     </div>
   );
 }

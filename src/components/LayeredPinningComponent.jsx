@@ -31,7 +31,7 @@ function LayeredPinningComponent() {
   return (
     <>
       <div id="container">
-        <section className="relative panel one">
+        <section className="static md:relative panel one">
           <FirstSection />
         </section>
         <section className="panel two">

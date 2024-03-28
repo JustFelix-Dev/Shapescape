@@ -17,7 +17,7 @@ import greenHalf from "../assets/green-half.png";
 const ThirdSection = () => {
   return (
     <div className="third-section w-full text-center max-w-[1121px] mx-auto flex flex-col gap-12">
-      <header className="text-based mx-auto text-[44px] font-bold leading-[53px] text-center max-w-[20ch]">
+      <header className="text-based mx-auto text-[24px] sm:text-[38px] md:text-[44px] font-bold leading-[53px] text-center max-w-[20ch]">
         We are proud of our creations
       </header>
       <section className="flex gap-12 flex-wrap">

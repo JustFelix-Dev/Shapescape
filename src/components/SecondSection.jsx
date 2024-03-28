@@ -3,7 +3,7 @@ import readMoreIcon from "../assets/readMore.svg";
 const SecondSection = () => {
   return (
     <div className="second-section w-full text-center max-w-[1121px] mx-auto">
-      <p className=" max-w-[24ch] mx-auto text-center text-[44px] text-[#041C3B] font-extrabold leading-[62px]">
+      <p className=" max-w-[24ch] mx-auto text-center text-[22px] sm:text-[38px] md:text-[44px] text-[#041C3B] font-extrabold leading-[32px] sm:leading-[52px] md:leading-[62px]">
         We are Shapescape.Since 2013 we have sought to{" "}
         <span className="bg-[#CDF462] px-[16px] py-[4px] rounded-full">
           educate
