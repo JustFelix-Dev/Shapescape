@@ -144,16 +144,6 @@
   display: none;
 }
 
-.letter-box {
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
-.letter-box > * {
-  width: 80%;
-  border-radius: 50px;
-}
 
 @media screen and (max-width: 900px) {
   .nav-list {
@@ -205,6 +195,17 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
+
+  .letter-box {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  }
+
+.letter-box > * {
+  width: 80%;
+  border-radius: 50px;
+ }
 }
 
 @media screen and (max-width: 595px) {
