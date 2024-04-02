@@ -185,7 +185,7 @@
     flex-direction: column;
   }
   .six {
-    min-height: 100vh !important;
+    min-height: 180vh !important;
   }
 }
 

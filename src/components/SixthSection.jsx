@@ -7,7 +7,7 @@ const SixthSection = () => {
         <img src={footerShapescape} alt="logo" />
       </div>
       <div className="games-excite flex gap-4 ">
-        <h2 className="text-[46px] font-bold text-based max-w-[14ch] text-left leading-[51px]">
+        <h2 className="text-[28px] sm:text-[40px] md:text-[46px] font-bold text-based max-w-[14ch] text-left leading-[40px] sm:leading-[48px] md:leading-[51px]">
           Using games to excite.
         </h2>
         <div className="flex flex-col gap-10 md:gap-0 md:flex-row justify-between w-full text-left">

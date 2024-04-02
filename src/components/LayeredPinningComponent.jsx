@@ -41,14 +41,15 @@ function LayeredPinningComponent() {
           <ThirdSection />
         </section>
         <section className="panel four">
-          <FourthSection/>
+          <FourthSection />
         </section>
         <section className="panel five">
-          <FifthSection/>
+          <FifthSection />
         </section>
         <section className="panel six">
-          <SixthSection/>
+          <SixthSection />
         </section>
+        {/* <div className="panel seven h-0"></div> */}
       </div>
     </>
   );
