@@ -6,11 +6,11 @@ const SixthSection = () => {
       <div>
         <img src={footerShapescape} alt="logo" />
       </div>
-      <div className="flex gap-4 ">
+      <div className="games-excite flex gap-4 ">
         <h2 className="text-[46px] font-bold text-based max-w-[14ch] text-left leading-[51px]">
           Using games to excite.
         </h2>
-        <div className="flex justify-between w-full text-left">
+        <div className="flex flex-col gap-10 md:gap-0 md:flex-row justify-between w-full text-left">
           <ul className="flex flex-col gap-4 text-[16px] text-based">
             <li></li>
             <li>Education</li>
@@ -40,15 +40,13 @@ const SixthSection = () => {
         </div>
       </div>
       <div className="flex items-center justify-between">
-        <div className="flex gap-1 text-[#44566e] text-[14px]">
+        <div className="flex flex-wrap gap-1 text-[#44566e] text-[14px]">
           <span>Copyright &copy; Shapescape 2024</span>
           <li className="list-disc list-inside">
             <a href="#">Privacy Policy</a>
           </li>
           <li className="list-disc list-inside">
-            <a href="#">
-              Terms and Conditions{" "}
-            </a>
+            <a href="#">Terms and Conditions </a>
           </li>
         </div>
         <div className="flex items-center gap-3">
