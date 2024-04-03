@@ -49,7 +49,6 @@ function LayeredPinningComponent() {
         <section className="panel six">
           <SixthSection />
         </section>
-        {/* <div className="panel seven h-0"></div> */}
       </div>
     </>
   );
