@@ -31,22 +31,22 @@ function LayeredPinningComponent() {
   return (
     <>
       <div id="container">
-        <section className="static md:relative panel one">
+        <section className="static md:relative panel one px-6 sm:px-0">
           <FirstSection />
         </section>
-        <section className="panel two">
+        <section className="panel two px-6 sm:px-0">
           <SecondSection />
         </section>
-        <section className="panel three">
+        <section className="panel three px-6 sm:px-0">
           <ThirdSection />
         </section>
-        <section className="panel four">
+        <section className="panel four px-6 sm:px-0">
           <FourthSection />
         </section>
-        <section className="panel five">
+        <section className="panel five px-6 sm:px-0">
           <FifthSection />
         </section>
-        <section className="panel six">
+        <section className="panel six px-6 sm:px-0">
           <SixthSection />
         </section>
       </div>

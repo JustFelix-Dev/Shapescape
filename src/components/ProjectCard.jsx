@@ -3,12 +3,8 @@ import learnMoreImage from "../assets/learnMore.svg";
 const ProjectCard = ({ image, type, title, content, bgColor }) => {
   return (
     <div className="cursor-pointer flex flex-col gap-3 h-[350px] md:h-[493px] w-[530px] project-card">
-      <div className="relative image-container  transition-all overflow-hidden rounded-[8px] md:rounded-[28px] h-[338px] w-full max-w-full">
-        <img
-          src={image}
-          alt={title}
-          className="h-full object-cover max-w-full"
-        />
+      <div className="relative image-container  transition-all overflow-hidden rounded-[8px] md:rounded-[28px] h-[338px] w-full ">
+        <img src={image} alt={title} className="h-full object-cover w-full" />
         <div className="overlay absolute transition-all bg-[rgb(0,0,0,.2)] inset-0 opacity-[0.1] z-10">
           <div className="flex items-center justify-center gap-2 h-[338px] overlay-text">
             <span className="text-white text-[14px] md:text-[18px] font-semibold ">
